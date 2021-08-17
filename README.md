@@ -17,5 +17,5 @@ Hosted on  appetize.io - Link: https://appetize.io/app/j8ycqzcxnxdjbpa9r2v83v0yy
 
 Video
 
-https://github.com/Williamtobs/HNG_Stage2/blob/master/res/vidma_recorder_17082021_183103.mp4
+![App](https://j.gifs.com/0884g7.gif)
 
