@@ -13,7 +13,7 @@ Run Program on: https://dartpad.dev/7e9c0f1556bfca3d343626bd1966d107
 ## 2. build a simple app that collects user input and displays the input on the screen
 Mobile App built with Flutter - Direction Link: https://github.com/Williamtobs/HNG_Stage2
 
-Hosted on  appetize.io - Link: https://appetize.io/app/j8ycqzcxnxdjbpa9r2v83v0yyg?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
+Hosted on  appetize.io - Link: https://appetize.io/app/mfqq3fqujvgf058n3h8m5pp5t0?device=pixel4&scale=75&orientation=portrait&osVersion=10.0&deviceColor=black
 
 Video
 
