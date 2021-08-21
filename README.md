@@ -1,16 +1,21 @@
-# textdisplay
+# HNG STAGE 2 TASK
 
-A new Flutter project.
+![HNG LOGO](https://github.com/Williamtobs/HNG_Stage2/blob/master/res/brand-logo.png)
 
-## Getting Started
+https://zuri.team / https://training.zuri.team
 
-This project is a starting point for a Flutter application.
+## 1. Write a simple program that prints your name using your language of choice.
+Program written with Dart - Direction Link: https://github.com/Williamtobs/HNG_Stage2/tree/master/DisplayName
 
-A few resources to get you started if this is your first Flutter project:
+Run Program on: https://dartpad.dev/7e9c0f1556bfca3d343626bd1966d107
+![Print Name](https://github.com/Williamtobs/HNG_Stage2/blob/master/res/printName.JPG)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 2. build a simple app that collects user input and displays the input on the screen
+Mobile App built with Flutter - Direction Link: https://github.com/Williamtobs/HNG_Stage2
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Hosted on  appetize.io - Link: https://appetize.io/app/j8ycqzcxnxdjbpa9r2v83v0yyg?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
+
+Video
+
+![App](https://j.gifs.com/0884g7.gif)
+
