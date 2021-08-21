@@ -17,5 +17,5 @@ Hosted on  appetize.io - Link: https://appetize.io/app/j8ycqzcxnxdjbpa9r2v83v0yy
 
 Video
 
-![App](https://j.gifs.com/0884g7.gif)
+![App](https://j.gifs.com/pZk8JN.gif)
 
