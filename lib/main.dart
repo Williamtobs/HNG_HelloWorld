@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:textdisplay/Initial_Screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,9 +9,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MyHomePage(),
-    );
+    return MaterialApp(darkTheme: ThemeData.dark(), home: landingPage());
   }
 }
 
@@ -21,7 +20,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController _textContr = new TextEditingController();
-  // ignore: deprecated_member_use
+  String txt = "No input given";
+
+  void setChange() {
+    setState(() {
+      txt;
+    });
+  }
 
   void dispose() {
     // Clean up the controller when the widget is disposed.
@@ -56,7 +61,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     //   text = newText;
                     // },
                     controller: _textContr,
-                    onSaved: (value) {},
+                    onSaved: (value) {
+                      txt = value!;
+                    },
                     maxLines: 3,
                     style:
                         TextStyle(fontSize: 16, fontWeight: FontWeight.normal),
@@ -71,24 +78,41 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderSide: BorderSide(width: 2, color: Colors.blue),
                         )))),
             Container(
-              margin: EdgeInsets.only(top: 5),
               color: Colors.blue,
-              padding: EdgeInsets.all(5),
+              padding: EdgeInsets.all(0),
+              width: 120,
+              height: 50,
               child: ElevatedButton(
                   onPressed: () {
-                    showDialog(
-                      context: context,
-                      builder: (context) {
-                        return AlertDialog(
-                          // Retrieve the text the user has entered by using the
-                          // TextEditingController.
-                          content: Text(_textContr.text),
-                        );
-                      },
-                    );
+                    // ignore: unnecessary_null_comparison
+                    if (_textContr.text.isEmpty) {
+                      showDialog(
+                        context: context,
+                        builder: (context) {
+                          return AlertDialog(
+                            content: Text(
+                              "No text Provided",
+                              textAlign: TextAlign.center,
+                            ),
+                          );
+                        },
+                      );
+                    } else {
+                      showDialog(
+                        context: context,
+                        builder: (context) {
+                          return AlertDialog(
+                            content: Text(
+                              _textContr.text,
+                              textAlign: TextAlign.center,
+                            ),
+                          );
+                        },
+                      );
+                    }
                   },
                   child: Text("Display Text",
-                      style: TextStyle(fontSize: 20, color: Colors.white))),
+                      style: TextStyle(fontSize: 18, color: Colors.white))),
             )
           ],
         ),
